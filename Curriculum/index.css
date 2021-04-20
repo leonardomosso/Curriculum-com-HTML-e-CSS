@@ -1,0 +1,22 @@
+
+/*Header */
+
+
+
+header figure{
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content
+}
+
+header img {
+    border-radius: 50%;
+    width: 232px;
+    height: 207px;
+    box-shadow: inset -1px -11px 8px 11px #000000, 3px 2px 12px 9px rgb(130 140 141 / 18%);
+
+}
+
+.título{
+    text-align: center;
+}
