@@ -20,3 +20,18 @@ header img {
 .título{
     text-align: center;
 }
+
+/* main */
+
+.linha{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.coluna-esquerda{
+    width: 50%;
+}
+
+.coluna-direita{
+    width: 50%;
+}
