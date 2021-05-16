@@ -1,4 +1,14 @@
 
+
+html, body, figure, img, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul, li, a, main{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    
+}
+
 /*Header */
 
 body{
@@ -34,6 +44,7 @@ header img {
 /* main */
 
 .linha{
+    height: 100%;
     display: flex;
     flex-flow: row wrap;
 }
@@ -49,6 +60,43 @@ header img {
 /* footer */
 
 footer{
-    background-color: black;
+    background-color: rgb(7, 48, 182);
+}
+
+footer .container{
+    padding: 20px;
+}
+
+footer nav ul li a{
+    color: rgb(240, 240, 240);
+}
+
+footer nav .redes-sociais{
+   
+    padding: 0px 0 20px ;
+    text-align: center;
+
+}
+
+footer nav .redes-sociais li{
+    margin: 15px 28px;
+    text-align: center;
+    display: inline-block;
+}
+
+footer nav .redes-sociais li a img{
+    width: 40px;
+    transition: .2s;
+}
+
+footer nav .redes-sociais li a:hover img{
+    transform: scale(1.2) translateY(-10px);
+}
+
+footer p{
+    font-size: 1.2em;
+    color: rgba(236, 236, 236, 0.842);
+    
+
 }
 
