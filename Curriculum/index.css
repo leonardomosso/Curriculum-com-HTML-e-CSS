@@ -1,19 +1,40 @@
 
+
+html, body, figure, img, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul, li, a, main{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    
+}
+
 /*Header */
 
+body{
+    margin: 0;
+} 
 
+
+header{
+    background-color: #3c947680;
+}
 
 header figure{
     margin-left: auto;
     margin-right: auto;
-    width: fit-content
+    width: fit-content;
+    margin-top: auto;
 }
 
 header img {
     border-radius: 50%;
     width: 232px;
     height: 207px;
-    box-shadow: inset -1px -11px 8px 11px #000000, 3px 2px 12px 9px rgb(130 140 141 / 18%);
+    box-shadow: inset -1px -11px 8px 11px #000000, 3px 2px 12px 9px rgb(130 139 141 / 94%);
+    border: 5px solid white;
+    transform: translate(0px, 0px);
 
 }
 
@@ -23,7 +44,12 @@ header img {
 
 /* main */
 
+main{
+    text-align: justify;
+}
+
 .linha{
+    height: 100%;
     display: flex;
     flex-flow: row wrap;
 }
@@ -35,3 +61,54 @@ header img {
 .coluna-direita{
     width: 50%;
 }
+
+section{
+    margin: 29px;
+    padding: 2px;
+}
+
+
+
+/* footer */
+
+footer{
+    background-color: rgb(7, 48, 182);
+}
+
+footer .container{
+    padding: 20px;
+}
+
+footer nav ul li a{
+    color: rgb(240, 240, 240);
+}
+
+footer nav .redes-sociais{
+   
+    padding: 0px 0 20px ;
+    text-align: center;
+
+}
+
+footer nav .redes-sociais li{
+    margin: 15px 28px;
+    text-align: center;
+    display: inline-block;
+}
+
+footer nav .redes-sociais li a img{
+    width: 40px;
+    transition: .2s;
+}
+
+footer nav .redes-sociais li a:hover img{
+    transform: scale(1.2) translateY(-10px);
+}
+
+footer p{
+    font-size: 1.2em;
+    color: rgba(236, 236, 236, 0.842);
+    
+
+}
+
